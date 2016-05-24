@@ -1,15 +1,21 @@
 ﻿using System;
+using System.Text;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Lab2_HassanKobeissi;
 
 namespace UnitTestForLesson3
 {
+    /// <summary>
+    /// Summary description for UnitTest2
+    /// </summary>
     [TestClass]
-    public class UnitTest1
+    public class UnitTestForPersonClass
     {
+    
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }

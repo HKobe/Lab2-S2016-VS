@@ -41,12 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Person\Person.csproj">
+      <Project>{d4925038-eee3-48dc-a403-7087929833b7}</Project>
+      <Name>Person</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTest1\UnitTest1.csproj">
+      <Project>{96e3b5a8-d0c5-4fa6-b7aa-6d9777e270b5}</Project>
+      <Name>UnitTest1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
